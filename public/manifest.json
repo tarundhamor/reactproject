@@ -1,0 +1,13 @@
+{
+  "short_name": "Your Job App",
+  "name": "White Panda Assignment",
+  "icons": [
+    {
+      "src": "favicon.png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fdfdfd",
+  "background_color": "#fafafa"
+}

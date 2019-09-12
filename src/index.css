@@ -1,0 +1,44 @@
+*,
+*:after,
+*:before {
+  position: relative;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: #fdfdfd;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+}
